@@ -4,6 +4,9 @@
 <!-- PixelExperience Dependency Projects -->
   <project name="PixelExperience/packages_resources_MotoActions" path="packages/resources/MotoActions" remote="github" revision="pie" />
 
+    <!-- Prebuilts -->
+    <remove-project name="platform/prebuilts/clang/host/linux-x86" />  
+  
 <!-- Clang Dependency Projects -->
   <project name="PixelExperience/prebuilts_clang_host_linux-x86" path="prebuilts/clang/host/linux-x86" remote="github" revision="pie" />
 
@@ -12,6 +15,4 @@
   <project name="cedric-development/kernel_motorola_msm8937" path="kernel/motorola/msm8937" remote="github" revision="pie" />
   <project name="cedric-development/vendor_motorola_cedric" path="vendor/motorola/cedric" remote="github" revision="pie" />
   
-    <!-- Prebuilts -->
-    <remove-project name="platform/prebuilts/clang/host/linux-x86" />
 </manifest>
