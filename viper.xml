@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+<!-- PixelExperience Dependency Projects -->
+  <project name="PixelExperience/packages_resources_devicesettings" path="packages/resources/devicesettings" remote="github" revision="lineage-16.0" />
+
+    <!-- Prebuilts -->
+    <remove-project name="platform/prebuilts/clang/host/linux-x86" />  
+  
+<!-- Clang Dependency Projects -->
+  <project name="PixelExperience/prebuilts_clang_host_linux-x86" path="prebuilts/clang/host/linux-x86" remote="github" revision="pie" />
+
+<!-- Moto G5 Cedric Projects -->
+  <project name="cedric-development/device_motorola_cedric" path="device/motorola/cedric" remote="github" revision="viper-p" />
+  <project name="cedric-development/kernel_motorola_msm8937" path="kernel/motorola/msm8937" remote="github" revision="pie" />
+  <project name="cedric-development/vendor_motorola_cedric" path="vendor/motorola/cedric" remote="github" revision="pie" />
+  
+</manifest>
