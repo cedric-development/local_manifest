@@ -2,7 +2,7 @@
 <manifest>
 
 <!-- PixelExperience Dependency Projects -->
-  <project name="PixelExperience/packages_resources_devicesettings" path="packages/resources/devicesettings" remote="github" revision="lineage-16.0" />
+  <project name="LineageOS/android_packages_resources_devicesettings" path="packages/resources/devicesettings" remote="github" revision="lineage-16.0" />
 
     <!-- Prebuilts -->
     <remove-project name="platform/prebuilts/clang/host/linux-x86" />  
