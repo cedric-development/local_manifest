@@ -12,7 +12,7 @@
 
 <!-- Moto G5 Cedric Projects -->
   <project name="cedric-development/device_motorola_cedric" path="device/motorola/cedric" remote="github" revision="viper-p" />
-  <project name="cedric-development/kernel_motorola_msm8937" path="kernel/motorola/msm8937" remote="github" revision="viper-p" />
+  <project name="rattlesnake-project/android_kernel_motorola_msm8937" path="kernel/motorola/msm8937" remote="github" revision="pie" />
   <project name="cedric-development/vendor_motorola_cedric" path="vendor/motorola/cedric" remote="github" revision="pie" />
   
 </manifest>
