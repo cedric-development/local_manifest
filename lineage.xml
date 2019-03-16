@@ -11,8 +11,8 @@
   <project name="PixelExperience/prebuilts_clang_host_linux-x86" path="prebuilts/clang/host/linux-x86" remote="github" revision="pie" />
 
 <!-- Moto G5 Cedric Projects -->
-  <project name="cedric-development/device_motorola_cedric" path="device/motorola/cedric" remote="github" revision="viper-p" />
-  <project name="rattlesnake-project/android_kernel_motorola_msm8937" path="kernel/motorola/msm8937" remote="github" revision="pie" />
+  <project name="cedric-development/device_motorola_cedric" path="device/motorola/cedric" remote="github" revision="lineage-16.0" />
+  <project name="cedric-development/kernel_motorola_msm8937" path="kernel/motorola/msm8937" remote="github" revision="pie" />
   <project name="cedric-development/vendor_motorola_cedric" path="vendor/motorola/cedric" remote="github" revision="pie" />
   
 </manifest>
